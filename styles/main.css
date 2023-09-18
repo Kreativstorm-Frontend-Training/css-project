@@ -1,22 +1,126 @@
 /* GLOBAL STYLES */
-:root{
-    --text-font-sm:18px;
-    --text-font-md:24px;
-    --text-font-lg:36px;
-    --text-font-xl:48px;
-    --primary-color-dark:#1F2937;
-    --primary-color-light:#3882f6;
-    --text-color-primary:#f9faf8;
-    --text-color-secondary:#e5e7eb;
+:root {
+  --text-font-sm: 18px;
+  --text-font-md: 24px;
+  --text-font-lg: 36px;
+  --text-font-xl: 48px;
+  --primary-color-dark: #1f2937;
+  --primary-color-light: #3882f6;
+  --text-color-primary: #f9faf8;
+  --text-color-secondary: #e5e7eb;
+  --quote-background-color: #e5e7eb;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+    font-family: 'Roboto';
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+footer {
+  background-color: var(--primary-color-dark);
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer p {
+  color: var(--text-color-secondary);
+  text-align: center;
+}
+
+.showcase {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.showcase h1 {
+  color: var(--primary-color-dark);
+  text-align: center;
+}
+
+/* For mobile phones: */
+.fimage-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fimage {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fimage img {
+  width: 30vw;
+  height: 30vw;
+  border: 5px solid var(--primary-color-light);
+  border-radius: 5%;
+}
+
+.fimage p {
+  width: 30vw;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.testimonials {
+  background-color: var(--quote-background-color);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.quote-container {
+  padding: 5vw;
+}
+
+.quote {
+  font: 36px light italic var(--primary-color-dark);
+}
+
+.author {
+  text-align: end;
+  font-weight: bold;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .fimage-box {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fimage {
+    margin: 2rem;
+  }
+  .fimage img {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .fimage p {
+    width: 10vw;
+  }
+
+  .quote-container {
+    padding: 5vw 20vw 5vw 20vw;
+  }
 }
