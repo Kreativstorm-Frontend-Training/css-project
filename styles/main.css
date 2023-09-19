@@ -101,8 +101,7 @@ nav ul li {
 .space__title {
     margin-bottom: 10px;
 }
-
-footer {
+.footer {
   background-color: var(--primary-color-dark);
   display: flex;
   padding: 1rem;
@@ -110,10 +109,20 @@ footer {
   width: 100%;
   bottom: 0;
 }
-
-footer p {
+/*Any other way to move the pictures for socials to the right without padding?*/
+.footer__socials{
+  margin: 0px 15px 0px 100px;
+  flex:1;
+}
+.footer ul{
+  display:flex;
+  flex-direction: row;
   color: var(--text-color-secondary);
-  text-align: center;
+  flex:1;
+}
+.footer ul li{
+   margin: 15px;
+   list-style-type: none;
 }
 
 .showcase {
