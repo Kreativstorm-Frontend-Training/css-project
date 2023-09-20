@@ -88,7 +88,7 @@ nav ul li {
     background-color: rgb(110, 116, 124);
 }
 
-.header__content button {
+button {
     width: 150px;
     height: 42px;
     background-color: var(--primary-color-light);
@@ -96,6 +96,16 @@ nav ul li {
     border: 0px;
     color: var(--text-color-primary);
     font-weight: bold;
+}
+
+.button__border__white {
+    border: 1px solid var(--text-color-primary);
+}
+
+button:hover {
+    background-color: rgba(76, 127, 238, 0.8);
+    transition: 0.7s;
+    cursor: pointer;
 }
 
 .space__title {
@@ -206,15 +216,7 @@ nav ul li {
     flex: 1;
     justify-content: center;
 }
-.signup__content__button button {
-    width: 150px;
-    height: 42px;
-    border: 1px solid var(--text-color-primary);
-    background-color: var(--primary-color-light);
-    border-radius: 8px;
-    color: var(--text-color-primary);
-    font-weight: bold;
-}
+
 .author {
   text-align: end;
   font-weight: bold;
