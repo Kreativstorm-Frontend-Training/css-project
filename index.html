@@ -10,46 +10,59 @@
    </head>
    <body>
       <header>
-         <navbar class="navbar">
+         <navbar class="navbar container">
             <a href="/" class="navbar__logo">
-              <img src="./images/logo.svg" alt="company logo" class="navbar__image" />
-              <span class="navbar__company-name">FIOMA</span>
+              <img src="./images/logo.svg" alt="company logo">
+              <span>FIOMA</span>
             </a>
 
             <ul class="navbar__navigation">
-               <li class="navbar__navigation-item">
-                  <a href="/">Home</a>
+               <li>
+                  <a href="/">
+                    <img src="./images/icons/home-icon.svg" alt="home icon">
+                    <span>Home</span>
+                  </a>
                </li>
-               <li class="navbar__navigation-item">
-                  <a href="./properties.html">Properties</a>
+               <li>
+                  <a href="./properties.html">
+                    <img src="./images/icons/apartment-icon.svg" alt="properties icon">
+                    <span>Properties</span>
+                  </a>
                </li>
-               <li class="navbar__navigation-item">
-                  <a href="./contact.html">Contact</a>
+               <li>
+                  <a href="./contact.html">
+                    <img src="./images/icons/contact-icon.svg" alt="contact icon">
+                    <span>Contact</span>
+                  </a>
                </li>
             </ul>
          </navbar>
       </header>
 
       <main>
-         <section class="hero">
+         <section class="hero container">
             <div class="hero__image">
                <img src="./images/hero-image.svg" alt="image of the inside of a stunning real estate property">
             </div>
 
             <div class="hero__information">
                <h1>Welcome to FIOMA Real Estate</h1>
-               <p>where dreams of finding your perfect home become a reality.</p>
-               <button class="hero__information__button">
-               Sign Up
+               <p>Fioma Realty is your trusted partner in finding the perfect home. 
+                With a vast range of listings and local expertise, our dedicated team offers personalized 
+                service, making your real estate journey seamless.</p>
+               <button class="button hero__information__button">
+               Reach Out
                </button>    
             </div>
          </section>
 
-         <section class="property-showcase">
-            <h3 class="property-showcase__title">Properties</h3>
+         <section class="property-showcase container">
+            <h3>Properties</h3>
 
             <div class="property-showcase__card">
-               <span class="property-showcase__card__type">Apartment</span>
+               <div class="property-showcase__card__type">
+                <p>Apartment</p>
+               </div>
                <div class="property-showcase__card__image">
                   <figure>
                      <img src="./images/property-showcase-apartment.png" alt="showcase of beautiful apartment property">
@@ -59,7 +72,9 @@
             </div>
 
             <div class="property-showcase__card">
-               <span class="property-showcase__card__type">Farmhouse</span>
+               <div class="property-showcase__card__type">
+                <p>Farmhouse</p>
+               </div>
                <div class="property-showcase__card__image">
                   <figure>
                      <img src="./images/property-showcase-farmhouse.png" alt="showcase of beautiful farmhouse property">
@@ -69,7 +84,9 @@
             </div>
 
             <div class="property-showcase__card">
-               <span class="property-showcase__card__type">Townhouse</span>
+               <div class="property-showcase__card__type">
+                <p>Townhouse</p>
+               </div>
                <div class="property-showcase__card__image">
                   <figure>
                      <img src="./images/property-showcase-townhouse.png" alt="showcase of beautiful townhouse property">
@@ -79,7 +96,9 @@
             </div>
 
             <div class="property-showcase__card">
-               <span class="property-showcase__card__type">Villa</span>
+               <div class="property-showcase__card__type">
+                <p>Villa</p>
+               </div>
                <div class="property-showcase__card__image">
                   <figure>
                      <img src="./images/property-showcase-villa.png" alt="showcase of beautiful villa property">
@@ -89,80 +108,91 @@
             </div>
          </section>
 
-         <section class="about-us">
-            <h3 class="about-us__title">About Us</h3>
-            <p class="about-us__content">
+         <section class="about-us container">
+            <h3>About Us</h3>
+            <p>
                At FIOMA Real Estate, our journey began in 2018 with a shared vision to redefine the world of real estate. 
                Founded by a team of passionate individuals, including Imaan Cooper, Only Only, Freddy Aristizabal, 
                Moses Ebenardor, and Arthur Kamarouski, FIOMA emerged as a global force committed to making dreams come true.
-               <br>
-               Our vision is to transcend geographical boundaries and cultural differences, 
-               uniting people from all corners of the world in the pursuit of finding their perfect home. 
-               We believe that every client is unique, and their dreams and aspirations are at the heart of our mission.
-               <br>
-               With a relentless dedication to excellence, we have made clients our number one priority. 
-               We strive to provide exceptional service, whether you're seeking a cozy apartment, 
-               an elegant villa, a serene farmhouse, or a charming townhouse. Our commitment is unwavering, 
-               and our journey continues, fueled by the dreams and stories of those we serve.
             </p>
+            <p>Our vision is to transcend geographical boundaries and cultural differences, 
+              uniting people from all corners of the world in the pursuit of finding their perfect home. 
+              We believe that every client is unique, and their dreams and aspirations are at the heart of our mission.</p>
+            <p>With a relentless dedication to excellence, we have made clients our number one priority. 
+              We strive to provide exceptional service, whether you're seeking a cozy apartment, 
+              an elegant villa, a serene farmhouse, or a charming townhouse. Our commitment is unwavering, 
+              and our journey continues, fueled by the dreams and stories of those we serve.</p>
          </section>
 
          <section class="testimonials">
-            <div class="testimonials__card">
-               <p class="testimonials__card__content">
-                  "FIOMA Real Estate exceeded our expectations in our search for a forever home for our growing family. 
-                  Their team took the time to understand our needs, from the number of bedrooms to the ideal neighborhood. 
-                  Their commitment to finding the perfect fit was evident throughout the entire process. 
-                  Thanks to their dedication and expertise, we are now settled in a beautiful family-friendly neighborhood, 
-                  and we couldn't be happier."
-               </p>
-               <p class="testimonials__card__author">-Ryan Reynolds</p>
+          <h3>Testimonials</h3>
+
+          <div class="testimonials__slider">
+            <div class="testimonials__slider__wrapper">
+              <div id="testimonial-1" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "FIOMA Real Estate exceeded our expectations in our search for a forever home for our growing family. 
+                    Their team took the time to understand our needs, from the number of bedrooms to the ideal neighborhood. 
+                    Their commitment to finding the perfect fit was evident throughout the entire process. 
+                    Thanks to their dedication and expertise, we are now settled in a beautiful family-friendly neighborhood, 
+                    and we couldn't be happier."
+                 </p>
+                 <p class="testimonials__card__author">-Ryan Reynolds</p>
+              </div>
+  
+              <div id="testimonial-2" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "I recently moved to the city and was in search of a comfortable and affordable apartment. 
+                    FIOMA Real Estate made the process incredibly easy. They showed me a range of apartments that suited 
+                    my budget and preferences. Their attention to detail and quick responses made the whole experience stress-free. 
+                    I'm now happily settled in my new place, and it's all thanks to FIOMA's outstanding service."
+                 </p>
+                 <p class="testimonials__card__author">-Joe Goldberg</p>
+              </div>
+  
+              <div id="testimonial-3" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "Finding the perfect villa for my family was a dream come true with FIOMA Real Estate. 
+                    Their portfolio of luxurious villas was impressive, and their agents were knowledgeable and attentive. 
+                    They guided us through every step of the process, from property tours to negotiations. 
+                    We're now enjoying the serenity and elegance of our dream villa, thanks to FIOMA's exceptional service."
+                 </p>
+                 <p class="testimonials__card__author">-Zendaya Coleman</p>
+              </div>
+              
+              <div id="testimonial-4" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "When I decided to move to the countryside, FIOMA Real Estate made the transition seamless. 
+                    They showed me a variety of farmhouses and townhouses, each with its unique charm. 
+                    Their expertise in rural properties was evident, and they ensured I found the perfect  blend of 
+                    tranquility and convenience. Thanks to FIOMA, I've discovered the joys of peaceful countryside living."
+                 </p>
+                 <p class="testimonials__card__author">-Venom</p>
+              </div>
             </div>
 
-            <div class="testimonials__card">
-               <p class="testimonials__card__content">
-                  "I recently moved to the city and was in search of a comfortable and affordable apartment. 
-                  FIOMA Real Estate made the process incredibly easy. They showed me a range of apartments that suited 
-                  my budget and preferences. Their attention to detail and quick responses made the whole experience stress-free. 
-                  I'm now happily settled in my new place, and it's all thanks to FIOMA's outstanding service."
-               </p>
-               <p class="testimonials__card__author">-Joe Goldberg</p>
+            <div class="testimonials__slider__navigation">
+              <a href="#testimonial-1"></a>
+              <a href="#testimonial-2"></a>
+              <a href="#testimonial-3"></a>
+              <a href="#testimonial-4"></a>
             </div>
-
-            <div class="testimonials__card">
-               <p class="testimonials__card__content">
-                  "Finding the perfect villa for my family was a dream come true with FIOMA Real Estate. 
-                  Their portfolio of luxurious villas was impressive, and their agents were knowledgeable and attentive. 
-                  They guided us through every step of the process, from property tours to negotiations. 
-                  We're now enjoying the serenity and elegance of our dream villa, thanks to FIOMA's exceptional service."
-               </p>
-               <p class="testimonials__card__author">-Zendaya Coleman</p>
-            </div>
-            
-            <div class="testimonials__card">
-               <p class="testimonials__card__content">
-                  "When I decided to move to the countryside, FIOMA Real Estate made the transition seamless. 
-                  They showed me a variety of farmhouses and townhouses, each with its unique charm. 
-                  Their expertise in rural properties was evident, and they ensured I found the perfect  blend of 
-                  tranquility and convenience. Thanks to FIOMA, I've discovered the joys of peaceful countryside living."
-               </p>
-               <p class="testimonials__card__author">-Venom</p>
-            </div>
+          </div>
          </section>
 
-         <section class="call-to-action">
+         <section class="call-to-action container">
             <div class="call-to-action__text">
                <h5>Need Personal Assistance?</h5>
                <p>Sign up now and one of our agents will get back to you shortly.</p>
             </div>
 
-            <button class="call-to-action__button">
+            <button class="button call-to-action__button">
             Sign Up
             </button>
          </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer container">
          <div class="footer__logo">
             <img src="./images/logo.svg" alt="company logo">
             <p>FIOMA Real Estate</p>
@@ -185,11 +215,11 @@
                <p>5 Steel street, Cape Town South Africa</p>
             </div>
             <div class="footer__contact__socials">
-               <img src="./images/facebook.svg" alt="facebook icon">
-               <img src="./images/instagram.svg" alt="instagram icon">
+               <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
+               <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
             </div>
          </div>
-         
+
          <span class="footer__copyright">Copyright &copy; 2023</span>
       </footer>
    </body>
