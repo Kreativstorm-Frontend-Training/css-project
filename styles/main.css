@@ -1,0 +1,22 @@
+/* GLOBAL STYLES */
+:root{
+    --text-font-sm:18px;
+    --text-font-md:24px;
+    --text-font-lg:36px;
+    --text-font-xl:48px;
+    --primary-color-dark:#1F2937;
+    --primary-color-light:#3882f6;
+    --text-color-primary:#f9faf8;
+    --text-color-secondary:#e5e7eb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
