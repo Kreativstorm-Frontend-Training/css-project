@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header-navbar">
-            <div class="header-logo">
+        <div class="header__navbar">
+            <div class="header__logo">
                 <picture>
+                    <h3>Header Logo</h3>
                     <img>
                 </picture>
             </div>
@@ -23,18 +25,88 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-content">
-            <div class="header-title">
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus nihil mollitia minima laboriosam esse, aliquid commodi voluptatibus fugiat! Suscipit est aliquam repudiandae explicabo eos rerum, numquam laudantium dicta ipsum!</p>
-                <button>Sign Up</button>
+        <div class="header__content">
+            <div class="header__title">
+                <h1 class="space__title">This website is awesome</h1>
+                <p class="space__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus nihil mollitia minima laboriosam esse, aliquid commodi voluptatibus fugiat! Suscipit est aliquam repudiandae explicabo eos rerum, numquam laudantium dicta ipsum!</p>
+                <button class="space__title">Sign Up</button>
             </div>
-            <div class="header-image">
+            <div class="header__image">
                 <picture>
                     <img>
+                    <h3>This is a placeholder for an image</h3>
                 </picture>
             </div>
+
         </div>
+        <div class="header-image">
+          <picture>
+            <img />
+          </picture>
+        </div>
+      </div>
     </header>
-</body>
+    <section class="showcase">
+      <h1>Some random information</h1>
+      <div class="fimage-box">
+        <div class="fimage">
+          <img src="images/mock.png" alt="Mock image" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="fimage">
+          <img src="images/mock.png" alt="Mock image" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="fimage">
+          <img src="images/mock.png" alt="Mock image" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="fimage">
+          <img src="images/mock.png" alt="Mock image" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="quote-container">
+        <p class="quote">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus
+          nihil mollitia minima laboriosam esse, aliquid commodi voluptatibus
+          fugiat! Suscipit est aliquam repudiandae explicabo eos rerum, numquam
+          laudantium dicta ipsum!
+        </p>
+        <p class="author">-Thor</p>
+      </div>
+    </section>
+    <div class="signup__section">
+        <div class="signup__content">
+            <div class="signup__content__title">
+                <div>
+                    <h2 class="space__title">Call to action! It's time!</h2>
+                    <p class="space__title">
+                        Sign up for our product by clicking that button right over there!
+                    </p>
+                </div>
+            </div>
+            <div class="signup__content__button">
+                <button class="button__border__white">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <footer>
+        <ul>
+          <li>Contact Us</li>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+        </ul>
+      </footer>
+
+      <div class="footer__socials">
+        <img src="images/mock.png" alt="mock_image1">
+        <img src="images/mock.png" alt="mock_image2">
+        <img src="images/mock.png" alt="mock_image3">
+      </div>
+    </div >
+  </body>
 </html>
