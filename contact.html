@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>Fioma | Real Estate Agency</title>
+     </head>
+<body>
+    <header>
+        <navbar class="navbar container">
+           <a href="/" class="navbar__logo">
+             <img src="./images/logo.svg" alt="company logo">
+             <span>FIOMA</span>
+           </a>
+
+           <ul class="navbar__navigation">
+              <li>
+                 <a href="/">
+                   <img src="./images/icons/home-icon.svg" alt="home icon">
+                   <span>Home</span>
+                 </a>
+              </li>
+              <li>
+                 <a href="./properties.html">
+                   <img src="./images/icons/apartment-icon.svg" alt="properties icon">
+                   <span>Properties</span>
+                 </a>
+              </li>
+              <li>
+                 <a href="./contact.html">
+                   <img src="./images/icons/contact-icon.svg" alt="contact icon">
+                   <span>Contact</span>
+                 </a>
+              </li>
+           </ul>
+        </navbar>
+     </header>
+
+     <main>
+        <section class="contact-form container">
+            <h3>Reach out to us</h3>
+            
+            <form class="signup-form">
+                <div class="signup-form__input-wrapper">
+                    <input type="text" name="client-name" id="client-name" required>
+                    <label for="client-name">Name</label>
+                </div>
+                
+                <div class="signup-form__input-wrapper">
+                    <input type="text" name="client-surname" id="client-surname" required>
+                    <label for="client-surname">Surname</label>
+                </div>
+    
+                <div class="signup-form__input-wrapper">
+                    <input type="text" name="client-email" id="client-email" required>
+                    <label for="client-email">Email</label>
+                </div>
+                
+                <div class="signup-form__input-wrapper">
+                    <input type="text" name="client-phone" id="client-phone" required>
+                    <label for="client-phone">Phone</label>
+                </div>
+                
+                <div class="signup-form__input-wrapper">
+                    <input type="number" name="client-budget" id="client-budget" required>
+                    <label for="client-budget">Budget</label>
+                </div>
+                
+                <div class="signup-form__input-wrapper">
+                    <select name="client-locations" id="client-locations" required>
+                        <option value=""></option>
+                        <option value="spain">Spain</option>
+                        <option value="venice">Venice</option>
+                        <option value="madrid">Madrid</option>
+                    </select>
+                    <label for="client-locations">Locations</label>
+                </div>
+                
+                <div class="signup-form__input-wrapper textarea-wrapper">
+                    <textarea name="client-housing-requirements" id="client-housing-requirements" required></textarea>
+                    <label for="client-housing-requirements">Housing Requirements</label>
+                </div>
+    
+                <div class="signup-form__footer">
+                    <p class="signup-form__footer_text">
+                        Thank you for choosing FIOMA Real Estate.
+                        An agent will be in contact with you as soon as possible. 
+                    </p>
+                    <button class="button signup-form__footer_button" role="button">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </section>
+     </main>
+
+     <footer class="footer container">
+        <div class="footer__logo">
+           <img src="./images/logo.svg" alt="company logo">
+           <p>FIOMA Real Estate</p>
+           <span>Est. 2018</span>
+        </div>
+
+        <div class="footer__legal">
+           <p>Terms and Conditions</p>
+           <p>Privacy Policy</p>
+        </div>
+
+        <div class="footer__contact">
+           <h5 class="footer__contact__title">Contact Us</h5>
+           <div class="footer__contact__reach">
+              <p>Email: fioma.realest@email.com</p>
+              <p>Phone: +27 123 4567</p>
+           </div>
+           <div class="footer__contact__address">
+              <p>Address</p>
+              <p>5 Steel street, Cape Town South Africa</p>
+           </div>
+           <div class="footer__contact__socials">
+              <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
+              <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
+           </div>
+        </div>
+
+        <span class="footer__copyright">Copyright &copy; 2023</span>
+     </footer>
+</body>
+</html>

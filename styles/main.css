@@ -11,6 +11,7 @@
   --primary-color-dark: #1f2937;
   --primary-color-light: #3882f6;
   --text-color-primary: #f9faf8;
+  --text-color-white: #ffffff;
   --text-color-secondary: #e5e7eb;
   --quote-background-color: #e5e7eb;
 }
@@ -341,3 +342,77 @@ header {
 }
 
 /************* PROPERTIES PAGE *************/
+/************* CONTACT PAGE *************/
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.contact-form h3 {
+  margin-bottom: 0.6rem;
+}
+.signup-form {
+  width: 100%;
+}
+.signup-form__input-wrapper {
+  height: 40px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.signup-form__input-wrapper select,
+.signup-form__input-wrapper textarea,
+.signup-form__input-wrapper input {
+  height: 100%;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid var(--primary-color-dark);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: calc(var(--text-font-sm) - 3px);
+  background-color: var(--text-color-white);
+}
+.signup-form__input-wrapper label {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  transition: top ease 200ms;
+  background-color: var(--text-color-white);
+}
+.signup-form__input-wrapper select:focus + label,
+.signup-form__input-wrapper select:valid + label,
+.signup-form__input-wrapper textarea:focus + label,
+.signup-form__input-wrapper textarea:valid + label,
+.signup-form__input-wrapper input:valid + label,
+.signup-form__input-wrapper input:focus + label {
+  top: 0;
+}
+.textarea-wrapper {
+  height: 100px;
+}
+.signup-form__input-wrapper textarea {
+  padding-top: 0.9rem;
+}
+.signup-form__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.signup-form__footer_button {
+  background-color: var(--primary-color-light);
+  color: var(--text-color-primary);
+}
+
+@media (min-width: 768px) {
+  .signup-form {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .signup-form {
+    width: 40%;
+  }
+}
