@@ -105,7 +105,7 @@ header {
 .navbar__navigation #dropdown > ul {
   position: absolute;
   list-style-type: inherit;
-  width: 100%;
+  width: 150px;
   top: 25px;
   background-color: var(--primary-color-dark);
   display: none;
