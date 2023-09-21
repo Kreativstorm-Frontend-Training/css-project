@@ -14,6 +14,7 @@
   --text-color-white: #ffffff;
   --text-color-secondary: #e5e7eb;
   --quote-background-color: #e5e7eb;
+  --grey-background: #404040;
 }
 
 * {
@@ -28,7 +29,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   min-height: 100vh;
 }
 
@@ -466,5 +467,66 @@ header {
   /* CONTACT FORM */
   .signup-form {
     width: 40%;
+  }
+}
+
+/* SCROLL-UP BUTTON */
+.scroll-up {
+  position: fixed;
+  z-index: 2;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.scroll-up:hover {
+  box-shadow: 5px 5px 5px var(--primary-color-light);
+}
+
+.scroll-up img {
+  width: 3rem;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.detail {
+  background: var(--quote-background-color);
+}
+.detail__primary {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.detail__primary__info-container h3 {
+  font-weight: 10;
+}
+.detail__primary__info-container ul {
+  margin: 0.5rem 0 0.5rem 1.5rem;
+}
+
+.detail__gallery {
+  padding: 2rem;
+}
+
+.detail__title {
+  background: var(--grey-background);
+  color: var(--text-color-primary);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .detail__primary {
+    display: flex;
+    width: 100%;
+  }
+
+  .detail__primary__img-container {
+    width: 40%;
+  }
+
+  .detail__primary__info-container {
+    width: 60%;
   }
 }
