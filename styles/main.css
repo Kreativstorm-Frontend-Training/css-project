@@ -494,20 +494,23 @@ header {
 .detail {
   background: var(--quote-background-color);
 }
-.detail__primary {
+.detail__content {
   margin-top: 1rem;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.detail__primary__info-container h3 {
+.detail__content__info-container h3 {
   font-weight: 10;
 }
-.detail__primary__info-container ul {
+.detail__content__info-container ul {
   margin: 0.5rem 0 0.5rem 1.5rem;
 }
 
-.detail__gallery {
-  padding: 2rem;
+.detail__content__gallery img{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .detail__title {
@@ -516,17 +519,16 @@ header {
   padding: 1rem;
   margin-top: 1rem;
 }
+
+.divident{
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
 @media (min-width: 768px) {
-  .detail__primary {
-    display: flex;
+  .detail__content {
+    flex-direction: row-reverse;
     width: 100%;
-  }
-
-  .detail__primary__img-container {
-    width: 40%;
-  }
-
-  .detail__primary__info-container {
-    width: 60%;
+    justify-content: flex-end;
   }
 }
