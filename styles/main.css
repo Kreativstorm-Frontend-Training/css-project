@@ -34,8 +34,8 @@ body {
 }
 
 .container {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
 }
 
 section {
@@ -153,6 +153,11 @@ header {
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   /* HEADER */
   .navbar__logo img {
     width: 3.5rem;
