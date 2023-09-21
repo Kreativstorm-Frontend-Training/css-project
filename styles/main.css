@@ -97,6 +97,28 @@ header {
 .navbar__navigation a span {
   display: none;
 }
+/* NAV DROPDOWN */
+.navbar__navigation #dropdown {
+  position: relative;
+}
+.navbar__navigation #dropdown > ul {
+  position: absolute;
+  list-style-type: inherit;
+  width: 100%;
+  top: 25px;
+  background-color: var(--primary-color-dark);
+  display: none;
+}
+.navbar__navigation #dropdown:hover > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 6px;
+}
 
 /* CALL TO ACTION */
 .call-to-action {
