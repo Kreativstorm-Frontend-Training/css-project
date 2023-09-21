@@ -57,10 +57,13 @@ button:hover {
 /************* LANDING PAGE *************/
 /* HEADER */
 header {
+  position: fixed;
+  z-index: 1;
   background-color: var(--primary-color-dark);
   color: var(--text-color-primary);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -348,7 +351,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 8rem;
 }
 .contact-form h3 {
   margin-bottom: 0.6rem;
