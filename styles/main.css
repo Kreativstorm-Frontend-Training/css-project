@@ -57,8 +57,6 @@ button:hover {
 
 /* HEADER */
 header {
-  position: fixed;
-  z-index: 1;
   background-color: var(--primary-color-dark);
   color: var(--text-color-primary);
   padding-top: 1rem;
