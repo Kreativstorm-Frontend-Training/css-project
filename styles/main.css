@@ -107,6 +107,7 @@ header {
   list-style-type: inherit;
   width: 150px;
   top: 25px;
+  left: -50px;
   background-color: var(--primary-color-dark);
   display: none;
 }
@@ -191,6 +192,9 @@ header {
   }
   .navbar__navigation a span {
     display: unset;
+  }
+  .navbar__navigation #dropdown > ul {
+    left: 0;
   }
   /* CALL-TO-ACTION */
   .call-to-action {
