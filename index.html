@@ -1,112 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <title>Home</title>
-  </head>
-  <body>
-    <header>
-        <div class="header__navbar">
-            <div class="header__logo">
-                <picture>
-                    <h3>Header Logo</h3>
-                    <img>
-                </picture>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Header link one</a></li>
-                    <li><a href="#">Header link second</a></li>
-                    <li><a href="#">Header link three</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header__content">
-            <div class="header__title">
-                <h1 class="space__title">This website is awesome</h1>
-                <p class="space__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus nihil mollitia minima laboriosam esse, aliquid commodi voluptatibus fugiat! Suscipit est aliquam repudiandae explicabo eos rerum, numquam laudantium dicta ipsum!</p>
-                <button class="space__title">Sign Up</button>
-            </div>
-            <div class="header__image">
-                <picture>
-                    <img>
-                    <h3>This is a placeholder for an image</h3>
-                </picture>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+      <link rel="stylesheet" href="./styles/main.css" />
+      <title>Fioma | Real Estate Agency</title>
+   </head>
+   <body>
+      <header>
+         <navbar class="navbar container">
+            <a href="#" class="navbar__logo">
+              <img src="./images/logo.svg" alt="company logo">
+              <span>FIOMA</span>
+            </a>
+
+            <ul class="navbar__navigation">
+               <li>
+                  <a href="#">
+                    <img src="./images/icons/home-icon.svg" alt="home icon">
+                    <span>Home</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="./properties.html">
+                    <img src="./images/icons/apartment-icon.svg" alt="properties icon">
+                    <span>Properties</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="./contact.html">
+                    <img src="./images/icons/contact-icon.svg" alt="contact icon">
+                    <span>Contact</span>
+                  </a>
+               </li>
+            </ul>
+         </navbar>
+      </header>
+
+      <main>
+         <section class="hero container">
+            <div class="hero__image">
+               <img src="./images/hero-image.svg" alt="image of the inside of a stunning real estate property">
             </div>
 
-        </div>
-        <div class="header-image">
-          <picture>
-            <img />
-          </picture>
-        </div>
-      </div>
-    </header>
-    <section class="showcase">
-      <h1>Some random information</h1>
-      <div class="fimage-box">
-        <div class="fimage">
-          <img src="images/mock.png" alt="Mock image" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </div>
-        <div class="fimage">
-          <img src="images/mock.png" alt="Mock image" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </div>
-        <div class="fimage">
-          <img src="images/mock.png" alt="Mock image" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </div>
-        <div class="fimage">
-          <img src="images/mock.png" alt="Mock image" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </div>
-      </div>
-    </section>
-    <section class="testimonials">
-      <div class="quote-container">
-        <p class="quote">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusamus
-          nihil mollitia minima laboriosam esse, aliquid commodi voluptatibus
-          fugiat! Suscipit est aliquam repudiandae explicabo eos rerum, numquam
-          laudantium dicta ipsum!
-        </p>
-        <p class="author">-Thor</p>
-      </div>
-    </section>
-    <div class="signup__section">
-        <div class="signup__content">
-            <div class="signup__content__title">
-                <div>
-                    <h2 class="space__title">Call to action! It's time!</h2>
-                    <p class="space__title">
-                        Sign up for our product by clicking that button right over there!
-                    </p>
-                </div>
+            <div class="hero__information">
+               <h1>Welcome to FIOMA Real Estate</h1>
+               <p>Fioma Realty is your trusted partner in finding the perfect home. 
+                With a vast range of listings and local expertise, our dedicated team offers personalized 
+                service, making your real estate journey seamless.</p>
+               <button class="button hero__information__button">
+               Reach Out
+               </button>    
             </div>
-            <div class="signup__content__button">
-                <button class="button__border__white">Sign up</button>
+         </section>
+
+         <section class="property-showcase container">
+            <h3>Properties</h3>
+
+            <div class="property-showcase__card">
+               <div class="property-showcase__card__type">
+                <p>Apartment</p>
+               </div>
+               <div class="property-showcase__card__image">
+                  <figure>
+                     <img src="./images/property-showcase-apartment.png" alt="showcase of beautiful apartment property">
+                     <figcaption>Prime Location, Endless Possibilities</figcaption>
+                  </figure>
+               </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-      <footer>
-        <ul>
-          <li>Contact Us</li>
-          <li>Privacy Policy</li>
-          <li>Terms and Conditions</li>
-        </ul>
+
+            <div class="property-showcase__card">
+               <div class="property-showcase__card__type">
+                <p>Farmhouse</p>
+               </div>
+               <div class="property-showcase__card__image">
+                  <figure>
+                     <img src="./images/property-showcase-farmhouse.png" alt="showcase of beautiful farmhouse property">
+                     <figcaption>Escape to the Tranquility of Farmhouse Living</figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <div class="property-showcase__card">
+               <div class="property-showcase__card__type">
+                <p>Townhouse</p>
+               </div>
+               <div class="property-showcase__card__image">
+                  <figure>
+                     <img src="./images/property-showcase-townhouse.png" alt="showcase of beautiful townhouse property">
+                     <figcaption>Effortless Urban Lifestyle Starts Here</figcaption>
+                  </figure>
+               </div>
+            </div>
+
+            <div class="property-showcase__card">
+               <div class="property-showcase__card__type">
+                <p>Villa</p>
+               </div>
+               <div class="property-showcase__card__image">
+                  <figure>
+                     <img src="./images/property-showcase-villa.png" alt="showcase of beautiful villa property">
+                     <figcaption>Discover the Art of Villa Living</figcaption>
+                  </figure>
+               </div>
+            </div>
+         </section>
+
+         <section class="about-us container">
+            <h3>About Us</h3>
+            <p>
+               At FIOMA Real Estate, our journey began in 2018 with a shared vision to redefine the world of real estate. 
+               Founded by a team of passionate individuals, including Imaan Cooper, Only Only, Freddy Aristizabal, 
+               Moses Ebenardor, and Arthur Kamarouski, FIOMA emerged as a global force committed to making dreams come true.
+            </p>
+            <p>Our vision is to transcend geographical boundaries and cultural differences, 
+              uniting people from all corners of the world in the pursuit of finding their perfect home. 
+              We believe that every client is unique, and their dreams and aspirations are at the heart of our mission.</p>
+            <p>With a relentless dedication to excellence, we have made clients our number one priority. 
+              We strive to provide exceptional service, whether you're seeking a cozy apartment, 
+              an elegant villa, a serene farmhouse, or a charming townhouse. Our commitment is unwavering, 
+              and our journey continues, fueled by the dreams and stories of those we serve.</p>
+         </section>
+
+         <section class="testimonials">
+          <h3>Testimonials</h3>
+
+          <div class="testimonials__slider">
+            <div class="testimonials__slider__wrapper">
+              <div id="testimonial-1" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "FIOMA Real Estate exceeded our expectations in our search for a forever home for our growing family. 
+                    Their team took the time to understand our needs, from the number of bedrooms to the ideal neighborhood. 
+                    Their commitment to finding the perfect fit was evident throughout the entire process. 
+                    Thanks to their dedication and expertise, we are now settled in a beautiful family-friendly neighborhood, 
+                    and we couldn't be happier."
+                 </p>
+                 <p class="testimonials__card__author">-Ryan Reynolds</p>
+              </div>
+  
+              <div id="testimonial-2" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "I recently moved to the city and was in search of a comfortable and affordable apartment. 
+                    FIOMA Real Estate made the process incredibly easy. They showed me a range of apartments that suited 
+                    my budget and preferences. Their attention to detail and quick responses made the whole experience stress-free. 
+                    I'm now happily settled in my new place, and it's all thanks to FIOMA's outstanding service."
+                 </p>
+                 <p class="testimonials__card__author">-Joe Goldberg</p>
+              </div>
+  
+              <div id="testimonial-3" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "Finding the perfect villa for my family was a dream come true with FIOMA Real Estate. 
+                    Their portfolio of luxurious villas was impressive, and their agents were knowledgeable and attentive. 
+                    They guided us through every step of the process, from property tours to negotiations. 
+                    We're now enjoying the serenity and elegance of our dream villa, thanks to FIOMA's exceptional service."
+                 </p>
+                 <p class="testimonials__card__author">-Zendaya Coleman</p>
+              </div>
+              
+              <div id="testimonial-4" class="testimonials__card">
+                 <p class="testimonials__card__content">
+                    "When I decided to move to the countryside, FIOMA Real Estate made the transition seamless. 
+                    They showed me a variety of farmhouses and townhouses, each with its unique charm. 
+                    Their expertise in rural properties was evident, and they ensured I found the perfect  blend of 
+                    tranquility and convenience. Thanks to FIOMA, I've discovered the joys of peaceful countryside living."
+                 </p>
+                 <p class="testimonials__card__author">-Venom</p>
+              </div>
+            </div>
+
+            <div class="testimonials__slider__navigation">
+              <a href="#testimonial-1"></a>
+              <a href="#testimonial-2"></a>
+              <a href="#testimonial-3"></a>
+              <a href="#testimonial-4"></a>
+            </div>
+          </div>
+         </section>
+
+         <section class="call-to-action container">
+            <div class="call-to-action__text">
+               <h5>Need Personal Assistance?</h5>
+               <p>Sign up now and one of our agents will get back to you shortly.</p>
+            </div>
+
+            <button class="button call-to-action__button">
+            Sign Up
+            </button>
+         </section>
+      </main>
+
+      <footer class="footer container">
+         <div class="footer__logo">
+            <img src="./images/logo.svg" alt="company logo">
+            <p>FIOMA Real Estate</p>
+            <span>Est. 2018</span>
+         </div>
+
+         <div class="footer__legal">
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
+         </div>
+
+         <div class="footer__contact">
+            <h5 class="footer__contact__title">Contact Us</h5>
+            <div class="footer__contact__reach">
+               <p>Email: fioma.realest@email.com</p>
+               <p>Phone: +27 123 4567</p>
+            </div>
+            <div class="footer__contact__address">
+               <p>Address</p>
+               <p>5 Steel street, Cape Town South Africa</p>
+            </div>
+            <div class="footer__contact__socials">
+               <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
+               <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
+            </div>
+         </div>
+
+         <span class="footer__copyright">Copyright &copy; 2023</span>
       </footer>
-
-      <div class="footer__socials">
-        <img src="images/mock.png" alt="mock_image1">
-        <img src="images/mock.png" alt="mock_image2">
-        <img src="images/mock.png" alt="mock_image3">
-      </div>
-    </div >
-  </body>
+   </body>
 </html>
