@@ -14,7 +14,7 @@
   </head>
   <body>
     <header id="top">
-      <navbar class="navbar container">
+      <nav class="navbar container">
         <a href="./" class="navbar__logo">
           <img src="./images/logo.svg" alt="company logo" />
           <span>FIOMA</span>
@@ -23,17 +23,30 @@
         <ul class="navbar__navigation">
           <li>
             <a href="./index.html#about-us">
-              <img src="./images/icons/home-icon.svg" alt="home icon" />
+              <img src="./images/icons/people-icon.svg" alt="about us icon" />
               <span>About Us</span>
             </a>
           </li>
-          <li>
-            <a href="./properties.html">
+          <li id="dropdown">
+            <a href="#">
               <img
                 src="./images/icons/apartment-icon.svg"
                 alt="properties icon"
               />
               <span>Properties</span>
+              <img
+                src="./images/icons/down-arrow-ion.svg"
+                alt="dropdown icon"
+              /> 
+
+              <ul>
+                <li>
+                  <a href="./apartments.html">Apartments</a>
+                </li>
+                <li>
+                  <a href="./villas.html">Villas</a>
+                </li>
+              </ul>
             </a>
           </li>
           <li>
@@ -43,7 +56,7 @@
             </a>
           </li>
         </ul>
-      </navbar>
+      </nav>
     </header>
 
     <main>
