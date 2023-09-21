@@ -116,27 +116,6 @@
     text-align: right;
   }
   
-  /* CALL TO ACTION */
-  .call-to-action {
-    background-color: var(--primary-color-light);
-    color: var(--text-color-primary);
-    border-radius: 8px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .call-to-action__text h5 {
-    font-size: var(--text-font-sm);
-  }
-  .call-to-action__text p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .call-to-action__button {
-    border: 1px solid var(--text-color-primary);
-    background-color: inherit;
-    color: inherit;
-  }
-
   @media (min-width: 768px) {
     /* HERO SECTION */
     .hero {
@@ -151,19 +130,6 @@
     }
     .hero__information {
       text-align: left;
-    }
-  
-    /* TESTIMONIALS SECTION */
-    .call-to-action {
-      margin-left: 5rem;
-      margin-right: 5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .call-to-action__text p {
-      padding-top: unset;
-      padding-bottom: unset;
     }
   }
   
