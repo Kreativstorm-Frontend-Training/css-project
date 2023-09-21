@@ -51,6 +51,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    order: -1;
   }
   .detail__content__gallery img{
     width: 250px;
