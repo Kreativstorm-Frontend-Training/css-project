@@ -7,17 +7,19 @@ This is a real estate website built using HTML and CSS. It allows users to brows
 
 ![Logo](./images/logo.svg)
 
+## Screenshots
+![App Screenshot](./images/screenshot.png)
+
 ## Technologies Used
-**HTML**
-**CSS**
+HTML & CSS
 
 ## Authors
-Imaan Cooper
-Only Only
-Freddy Aristizabal
-Moses Ebenardor
+Imaan Cooper, 
+Only Only, 
+Freddy Aristizabal, 
+Moses Ebenardor, 
 Arthur Kamarouski
 
 ## Acknowledgments
-Icons by Iconify
-Images by Pinterest
+**Icons** by Iconify, 
+**Images** by Pinterest
