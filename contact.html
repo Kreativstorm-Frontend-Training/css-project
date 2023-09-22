@@ -1,74 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-        <link rel="stylesheet" href="./styles/main.css" />
-        <title>Fioma | Real Estate Agency</title>
-     </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <title>Fioma | Real Estate Agency</title>
+</head>
 <body>
-    <header>
-        <navbar class="navbar container">
-           <a href="./index.html" class="navbar__logo">
-             <img src="./images/logo.svg" alt="company logo">
-             <span>FIOMA</span>
-           </a>
-
-           <ul class="navbar__navigation">
-              <li>
-                 <a href="./index.html">
-                   <img src="./images/icons/home-icon.svg" alt="home icon">
-                   <span>Home</span>
-                 </a>
-              </li>
-              <li>
-                 <a href="./properties.html">
-                   <img src="./images/icons/apartment-icon.svg" alt="properties icon">
-                   <span>Properties</span>
-                 </a>
-              </li>
-              <li>
-                 <a href="./contact.html">
-                   <img src="./images/icons/contact-icon.svg" alt="contact icon">
-                   <span>Contact</span>
-                 </a>
-              </li>
-           </ul>
-        </navbar>
-     </header>
-
-     <main>
+    <header id="top">
+        <nav class="navbar container">
+            <a href="./" class="navbar__logo">
+                <img src="./images/logo.svg" alt="company logo" />
+                <span>FIOMA</span>
+            </a>
+            <ul class="navbar__navigation">
+                <li>
+                    <a href="./index.html#about-us">
+                        <img src="./images/icons/people-icon.svg" alt="about us icon" />
+                        <span>About Us</span>
+                    </a>
+                </li>
+                <li id="dropdown">
+                    <a href="#">
+                        <img src="./images/icons/apartment-icon.svg" alt="properties icon" />
+                        <span>Properties</span>
+                        <img src="./images/icons/down-arrow-ion.svg" alt="dropdown icon" />
+                        <ul>
+                            <li>
+                                <a href="./apartments.html">Apartments</a>
+                            </li>
+                            <li>
+                                <a href="./villas.html">Villas</a>
+                            </li>
+                            <li>
+                                <a href="./farmhouses.html">Farmhouses</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="./contact.html">
+                        <img src="./images/icons/contact-icon.svg" alt="contact icon" />
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <section class="contact-form container">
             <h3>Reach out to us</h3>
-            
             <form class="signup-form">
                 <div class="signup-form__input-wrapper">
                     <input type="text" name="client-name" id="client-name" required>
                     <label for="client-name">Name</label>
                 </div>
-                
                 <div class="signup-form__input-wrapper">
                     <input type="text" name="client-surname" id="client-surname" required>
                     <label for="client-surname">Surname</label>
                 </div>
-    
                 <div class="signup-form__input-wrapper">
                     <input type="text" name="client-email" id="client-email" required>
                     <label for="client-email">Email</label>
                 </div>
-                
                 <div class="signup-form__input-wrapper">
                     <input type="text" name="client-phone" id="client-phone" required>
                     <label for="client-phone">Phone</label>
                 </div>
-                
                 <div class="signup-form__input-wrapper">
                     <input type="number" name="client-budget" id="client-budget" required>
                     <label for="client-budget">Budget</label>
                 </div>
-                
                 <div class="signup-form__input-wrapper">
                     <select name="client-locations" id="client-locations" required>
                         <option value=""></option>
@@ -78,16 +83,13 @@
                     </select>
                     <label for="client-locations">Locations</label>
                 </div>
-                
                 <div class="signup-form__input-wrapper textarea-wrapper">
                     <textarea name="client-housing-requirements" id="client-housing-requirements" required></textarea>
                     <label for="client-housing-requirements">Housing Requirements</label>
                 </div>
-    
                 <div class="signup-form__footer">
                     <p class="signup-form__footer_text">
-                        Thank you for choosing FIOMA Real Estate.
-                        An agent will be in contact with you as soon as possible. 
+                        Thank you for choosing FIOMA Real Estate. An agent will be in contact with you as soon as possible.
                     </p>
                     <button class="button signup-form__footer_button" role="button">
                         Submit
@@ -95,10 +97,8 @@
                 </div>
             </form>
         </section>
-
         <section class="contact-info container">
             <h3>How to reach us</h3>
-
             <div class="contact-info__details">
                 <div class="contact-info__hours">
                     <h5>Working hours</h5>
@@ -126,45 +126,45 @@
                     <div>
                         <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
                         <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
-                     </div>
+                    </div>
                 </div>
             </div>
-
             <div class="contact-info__map">
                 <img src="./images/contact-us-map.png" alt="map of office location">
             </div>
         </section>
-     </main>
-
-     <footer class="footer container">
+    </main>
+	<div class="scroll-up">
+		<a href="#top">
+			<img src="images/scroll-up.png" alt="scroll-up">
+		</a>
+	</div>
+    <footer class="footer container">
         <div class="footer__logo">
-           <img src="./images/logo.svg" alt="company logo">
-           <p>FIOMA Real Estate</p>
-           <span>Est. 2018</span>
+            <img src="./images/logo.svg" alt="company logo">
+            <p>FIOMA Real Estate</p>
+            <span>Est. 2018</span>
         </div>
-
         <div class="footer__legal">
-           <p>Terms and Conditions</p>
-           <p>Privacy Policy</p>
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
         </div>
-
         <div class="footer__contact">
-           <h5 class="footer__contact__title">Contact Us</h5>
-           <div class="footer__contact__reach">
-              <p>Email: fioma.realest@email.com</p>
-              <p>Phone: +27 123 4567</p>
-           </div>
-           <div class="footer__contact__address">
-              <p>Address</p>
-              <p>5 Steel street, Cape Town South Africa</p>
-           </div>
-           <div class="footer__contact__socials">
-              <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
-              <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
-           </div>
+            <h5 class="footer__contact__title">Contact Us</h5>
+            <div class="footer__contact__reach">
+                <p>Email: fioma.realest@email.com</p>
+                <p>Phone: +27 123 4567</p>
+            </div>
+            <div class="footer__contact__address">
+                <p>Address</p>
+                <p>5 Steel street, Cape Town South Africa</p>
+            </div>
+            <div class="footer__contact__socials">
+                <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
+                <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
+            </div>
         </div>
-
         <span class="footer__copyright">Copyright &copy; 2023</span>
-     </footer>
+    </footer>
 </body>
 </html>
