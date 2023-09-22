@@ -9,8 +9,9 @@
   align-items: center;
   gap: 0.6rem;
 }
-.detail__content__info-container h3 {
+.detail__content__info-address {
   font-weight: 10;
+  font-weight: bold;
 }
 .detail__content__info-container ul {
   margin: 0.5rem 0 0.5rem 1.5rem;
