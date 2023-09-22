@@ -110,6 +110,7 @@ header {
   left: -50px;
   background-color: var(--primary-color-dark);
   display: none;
+  z-index: 1;
 }
 .navbar__navigation #dropdown:hover > ul {
   display: flex;
