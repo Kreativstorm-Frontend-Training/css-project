@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/landing.css">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles/main.css" >
+    <link rel="stylesheet" href="./styles/landing.css" >
     <title>Fioma | Real Estate Agency</title>
-</head>
-<body>
+  </head>
+  <body>
     <header id="top">
-        <nav class="navbar container">
-            <a href="#" class="navbar__logo">
-                <img src="./images/logo.svg" alt="company logo">
-                <span>FIOMA</span>
+      <nav class="navbar container">
+        <a href="#" class="navbar__logo">
+          <img src="./images/logo.svg" alt="company logo" >
+          <span>FIOMA</span>
+        </a>
+        <ul class="navbar__navigation">
+          <li>
+            <a href="#about-us">
+              <img src="./images/icons/people-icon.svg" alt="about us icon" >
+              <span>About Us</span>
             </a>
-            <ul class="navbar__navigation">
+          </li>
+          <li id="dropdown">
+            <a href="#">
+              <img
+                src="./images/icons/apartment-icon.svg"
+                alt="properties icon"
+              >
+              <span>Properties</span>
+              <img
+                src="./images/icons/down-arrow-ion.svg"
+                alt="dropdown icon"
+              >
+              <ul>
                 <li>
-                    <a href="#about-us">
-                        <img src="./images/icons/people-icon.svg" alt="about us icon">
-                        <span>About Us</span>
-                    </a>
-                </li>
-                <li id="dropdown">
-                    <a href="#">
-                        <img src="./images/icons/apartment-icon.svg" alt="properties icon">
-                        <span>Properties</span>
-                        <img src="./images/icons/down-arrow-ion.svg" alt="dropdown icon">
-                        <ul>
-                            <li>
-                                <a href="./screens/apartments.html">Apartments</a>
-                            </li>
-                            <li>
-                                <a href="./screens/villas.html">Villas</a>
-                            </li>
-                            <li>
-                                <a href="./screens/farmhouses.html">Farmhouses</a>
-                            </li>
-                        </ul>
-                    </a>
+                  <a href="./screens/apartments.html">Apartments</a>
                 </li>
                 <li>
-                    <a href="./screens/contact.html">
-                        <img src="./images/icons/contact-icon.svg" alt="contact icon">
-                        <span>Contact</span>
-                    </a>
+                  <a href="./screens/villas.html">Villas</a>
                 </li>
-            </ul>
-        </nav>
+                <li>
+                  <a href="./screens/farmhouses.html">Farmhouses</a>
+                </li>
+              </ul>
+            </a>
+          </li>
+          <li>
+            <a href="./screens/contact.html">
+              <img src="./images/icons/contact-icon.svg" alt="contact icon" >
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
         <section class="hero container">
@@ -128,36 +137,19 @@
         </section>
     </main>
     <footer class="footer container">
-        <div class="footer__logo">
-            <img src="./images/logo.svg" alt="company logo">
-            <p>FIOMA Real Estate</p>
-            <span>Est. 2018</span>
-        </div>
-        <div class="footer__legal">
-            <p>Terms and Conditions</p>
-            <p>Privacy Policy</p>
-        </div>
-        <div class="footer__contact">
-            <h5 class="footer__contact__title">Contact Us</h5>
-            <div class="footer__contact__reach">
-                <p>Email: fioma.realest@email.com</p>
-                <p>Phone: +27 123 4567</p>
-            </div>
-            <div class="footer__contact__address">
-                <p>Address</p>
-                <p>5 Steel street, Cape Town South Africa</p>
-            </div>
-            <div class="footer__contact__socials">
-                <img src="./images/icons/facebook-icon.svg" alt="facebook icon">
-                <img src="./images/icons/instagram-icon.svg" alt="instagram icon">
-            </div>
-        </div>
-        <span class="footer__copyright">Copyright &copy; 2023</span>
-        <div class="scroll-up">
-            <a href="#top">
-                <img src="images/scroll-up.png" alt="scroll-up">
-            </a>
-        </div>
+      <div class="footer__logo">
+        <img src="../images/logo.svg" alt="company logo" >
+        <p>FIOMA Real Estate</p>
+        <span>Est. 2018</span>
+      </div>
+      <p>Terms and Conditions</p>
+      <p>Privacy Policy</p>
+      <p class="footer__copyright">Copyright &copy; 2023</p>
+      <div class="scroll-up">
+        <a href="#top">
+          <img src="../images/scroll-up.png" alt="scroll-up" >
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
