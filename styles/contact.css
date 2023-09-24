@@ -59,6 +59,7 @@
 .signup-form__footer_button {
     background-color: var(--primary-color-light);
     color: var(--text-color-primary);
+    font-size: medium;
 }
 
 /* CONTACT INFO */

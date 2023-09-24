@@ -126,6 +126,7 @@ header {
   border-radius: 8px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 .call-to-action__text h5 {
   font-size: var(--text-font-sm);
@@ -208,6 +209,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
   }
   .call-to-action__text p {
     padding-top: unset;
