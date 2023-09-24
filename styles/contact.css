@@ -49,6 +49,7 @@
 }
 .signup-form__input-wrapper textarea {
     padding-top: 0.9rem;
+    resize: none;
 }
 .signup-form__footer {
     display: flex;
