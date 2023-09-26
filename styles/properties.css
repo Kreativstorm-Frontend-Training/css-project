@@ -1,5 +1,6 @@
 .detail {
     background: var(--quote-background-color);
+    margin-bottom: unset;
 }
 .detail__content {
     padding-top: 1rem;

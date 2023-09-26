@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    >
-    <link rel="stylesheet" href="./styles/main.css" >
-    <link rel="stylesheet" href="./styles/landing.css" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/landing.css">
     <title>Fioma | Real Estate Agency</title>
-  </head>
-  <body>
-    <header id="top">
-      <nav class="navbar container">
-        <a href="#" class="navbar__logo">
-          <img src="./images/logo.svg" alt="company logo" >
-          <span>FIOMA</span>
-        </a>
-        <ul class="navbar__navigation">
-          <li>
-            <a href="#about-us">
-              <img src="./images/icons/people-icon.svg" alt="about us icon" >
-              <span>About Us</span>
-            </a>
-          </li>
-          <li id="dropdown">
-            <a href="#">
-              <img
-                src="./images/icons/apartment-icon.svg"
-                alt="properties icon"
-              >
-              <span>Properties</span>
-              <img
-                src="./images/icons/down-arrow-ion.svg"
-                alt="dropdown icon"
-              >
-              <ul>
+</head>
+<body>
+    <header id="top" class="container">
+		<a href="#" class="logo">
+			<img src="./images/logo.svg" alt="company logo">
+			<span>FIOMA</span>
+		</a>
+        <nav>
+            <ul class="navigation">
                 <li>
-                  <a href="./screens/apartments.html">Apartments</a>
+                    <a href="./screens/about.html">
+                        <img src="./images/icons/people-icon.svg" alt="about us icon">
+                        <span>About Us</span>
+                    </a>
+                </li>
+                <li id="dropdown">
+                    <a href="#">
+                        <img src="./images/icons/apartment-icon.svg" alt="properties icon">
+                        <span>Properties</span>
+                        <img src="./images/icons/down-arrow-ion.svg" alt="dropdown icon">
+                        <ul>
+                            <li>
+                                <a href="./screens/apartments.html">Apartments</a>
+                            </li>
+                            <li>
+                                <a href="./screens/villas.html">Villas</a>
+                            </li>
+                            <li>
+                                <a href="./screens/farmhouses.html">Farmhouses</a>
+                            </li>
+                        </ul>
+                    </a>
                 </li>
                 <li>
-                  <a href="./screens/villas.html">Villas</a>
+                    <a href="./screens/contact.html">
+                        <img src="./images/icons/contact-icon.svg" alt="contact icon">
+                        <span>Contact</span>
+                    </a>
                 </li>
-                <li>
-                  <a href="./screens/farmhouses.html">Farmhouses</a>
-                </li>
-              </ul>
-            </a>
-          </li>
-          <li>
-            <a href="./screens/contact.html">
-              <img src="./images/icons/contact-icon.svg" alt="contact icon" >
-              <span>Contact</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="hero container">
@@ -66,9 +57,7 @@
             </div>
             <div class="hero__information">
                 <h1>Welcome to FIOMA Real Estate</h1>
-                <p>Fioma Realty is your trusted partner in finding the perfect home. 
-                  With a vast range of listings and local expertise, our dedicated team offers personalized service, 
-                  making your real estate journey seamless.</p>
+                <p>Fioma Realty is your trusted partner in finding the perfect home. With a vast range of listings and local expertise, our dedicated team offers personalized service, making your real estate journey seamless.</p>
                 <a href="./screens/contact.html">
                     <button class="button hero__information__button">
                      Reach Out
@@ -110,19 +99,11 @@
             </div>
         </section>
         <section class="testimonials container">
-         <h3>Testimonials</h3>
-
-           <blockquote class="testimonials__card__content">
-              "FIOMA Real Estate exceeded our expectations in our search for a forever home for our growing family. 
-              Their team took the time to understand our needs, from the number of bedrooms to the ideal neighborhood. 
-              Their commitment to finding the perfect fit was evident throughout the entire process. 
-              Thanks to their dedication and expertise, we are now settled in a beautiful family-friendly neighborhood, 
-              and we couldn't be happier".
-           </blockquote>
-           <cite class="testimonials__card__author">-Ryan Reynolds</cite>
-        
-        </section>
-
+            <h3>Testimonials</h3>
+            <blockquote class="testimonials__card__content">
+                "FIOMA Real Estate exceeded our expectations in our search for a forever home for our growing family. Their team took the time to understand our needs, from the number of bedrooms to the ideal neighborhood. Their commitment to finding the perfect fit was evident throughout the entire process. Thanks to their dedication and expertise, we are now settled in a beautiful family-friendly neighborhood, and we couldn't be happier".
+            </blockquote>
+            <cite class="testimonials__card__author">-Ryan Reynolds</cite>
         </section>
         <section class="call-to-action container">
             <div class="call-to-action__text">
@@ -137,19 +118,19 @@
         </section>
     </main>
     <footer class="footer container">
-      <div class="footer__logo">
-        <img src="../images/logo.svg" alt="company logo" >
-        <p>FIOMA Real Estate</p>
-        <span>Est. 2018</span>
-      </div>
-      <p>Terms and Conditions</p>
-      <p>Privacy Policy</p>
-      <p class="footer__copyright">Copyright &copy; 2023</p>
-      <div class="scroll-up">
-        <a href="#top">
-          <img src="../images/scroll-up.png" alt="scroll-up" >
-        </a>
-      </div>
+        <div class="footer__logo">
+            <img src="../images/logo.svg" alt="company logo">
+            <p>FIOMA Real Estate</p>
+            <span>Est. 2018</span>
+        </div>
+        <p>Terms and Conditions</p>
+        <p>Privacy Policy</p>
+        <p class="footer__copyright">Copyright &copy; 2023</p>
+        <div class="scroll-up">
+            <a href="#top">
+                <img src="../images/scroll-up.png" alt="scroll-up">
+            </a>
+        </div>
     </footer>
-  </body>
+</body>
 </html>

@@ -75,12 +75,10 @@
 }
 
 /* TESTIMONIALS SECTION */
-.testimonials h3 {
-    
-}
 .testimonials {
   background-color: var(--text-color-secondary);
-  padding: 3rem 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-radius: 4px;
 }
 .testimonials__card__content {
