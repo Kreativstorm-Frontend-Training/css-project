@@ -49,6 +49,7 @@
 }
 .signup-form__input-wrapper textarea {
     padding-top: 0.9rem;
+    resize: none;
 }
 .signup-form__footer {
     display: flex;
@@ -58,6 +59,7 @@
 .signup-form__footer_button {
     background-color: var(--primary-color-light);
     color: var(--text-color-primary);
+    font-size: medium;
 }
 
 /* CONTACT INFO */
@@ -89,13 +91,15 @@
     width: 40px;
     height: 40px;
 }
+.contact-info__hours{
+    min-width: 250px;
+}
 .contact-info__hours > div {
     display: flex;
     justify-content: start;
     align-items: center;
-    column-gap: 1rem;
 }
-.contact-info__hours > div p {
+.contact-info__hours > div p:first-child {
     flex-basis: 50%;
 }
 .contact-info__map img {
@@ -112,8 +116,7 @@
     /* CONTACT INFO */
     .contact-info__details {
         flex-direction: row;
-        justify-content: center;
-        gap: 1.2rem;
+        justify-content: space-between;
     }
 }
 
